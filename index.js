@@ -11,8 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
+const fullName = "Ghadah";
+const yearOfBirth = 1996;
+const hobby = "Playing with JS";
+const funFact = "I love to code in the Dark";
+const image = "https://i.pinimg.com/originals/dc/17/a0/dc17a078dea46dccb0ca4a0fcdf8f404.jpg"
 
 
 
@@ -29,11 +32,10 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
-
-
+let YOUR_AGE =  new Date().getFullYear() - yearOfBirth;
+ const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString =`I am ${YOUR_AGE}`;
+ const hobbyString = `My hobby is ${hobby}`;
 
 
 /**
@@ -45,14 +47,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars = stars+1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars = stars-1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars+2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars-2;
 }
